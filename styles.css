@@ -1,0 +1,217 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+
+
+.header{
+    background: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header_area{
+    padding: 20px;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+    width: 140px;
+}
+
+.header_area{
+    padding: 20px;
+}
+
+
+
+  
+h1,h2,h3,h4,h5{
+      font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+    color:#FD3A13;
+}
+
+.menu-lateral ul li a{
+    color: black;
+    
+}
+
+.btn-search{background: #FD3A13; border-color: #FD3A13; color: #fff; padding: 7px 10px}
+.btn-search:hover{background: #ca1b1b; border-color: #ca1b1b}
+.navbar {border: medium none; float: left; margin-bottom: 0px; width: 100%;  border-radius: 0}
+
+
+.main{
+    background: white;
+}
+
+.main .card{
+    margin-bottom: 15px;
+}
+
+.carrossel-title{
+    
+    font-size: 40px;
+}
+
+.carrossel-text{
+    font-size: 30px;
+}
+
+.noticia-importante img{
+    width: 100%;
+    
+}
+
+.noticia-importante{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carrossel2{
+    margin-top: 20px;
+}
+
+
+.mais-lidas{
+    text-align: center;
+    color: #FD3A13;
+    margin-top: 10px;
+    
+}
+
+.galeria{
+    text-align: center;
+    color: #FD3A13;
+    margin-top: 10px;
+}
+
+
+
+.footer{
+    margin-top: 20px;
+    background: white;
+}
+
+.infos h1{ font-size: 1.2em; }
+
+.infos{
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+
+.copy{
+    font-size: 10px;
+    text-align: center;
+}
+
+.spotify{
+    margin-top: 20px;
+}
+
+.rede-social{
+    margin:50px auto;
+    width: 1025px;
+    height: 150px;
+}
+
+.rede{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    transition: all 0.4s ease-out;
+    border-radius: 50%;
+}
+
+.rede:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50,50,50,0.45);
+}
+
+.rede#facebook{
+    background-color: #2372A3;
+}
+
+.rede#instagram{
+    background-color: #3f729b;
+}   
+
+.rede#youtube{
+    background-color: #b00;
+}
+
+.icone{
+    margin: 0px auto;
+    padding: 35px;
+    width: 150px;
+
+}
+
+.top-nav{background: #fff; padding: 0; border-bottom: 1px solid #dbdbdb}
+.top-nav .nav-link {padding-bottom: 0.7rem; padding-top: 0.7rem;}
+.top-nav .navbar-nav .nav-item + .nav-item{margin-left:0}
+.top-nav li a{color: #141517; text-transform: uppercase; font-size: 14px; font-weight: 700; padding: 0 10px; border-bottom: 2px solid #fff}
+.top-nav li a:hover, .top-nav li a:focus, .top-nav li.active a{color: #141517; border-bottom: 2px solid #FD3A13 }
+.top-nav .form-control{border-color: #fff}
+.navbar-toggle{background: #fff;}
+.navbar-toggle .icon-bar{background:#0A2E61; }
+.navbar-brand{display: none;}
+
+#search {float: right; margin-top: 9px; width: 250px;}
+.search {padding: 5px 0; width: 230px; height: 30px; position: relative; left: 10px; float: left; line-height: 22px;}
+.search input {background: #d0d0d0; border: medium none; border-radius: 3px 0 0 3px; float: left; height: 36px; line-height: 18px; margin-left: 210px; padding: 0 9px; position: absolute; top: -3px; width: 0; -webkit-transition: all 0.7s ease-in-out; -moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out; transition: all 0.7s ease-in-out;}
+.search:hover input, .search input:focus { width: 200px; margin-left: 0px; background: #d0d0d0;}
+.top-nav .btn {position: absolute;right: 0;top: -3px;border-radius:3px;}
+
+
+@media screen and (max-width:600px){
+    .header{
+        background-position: 0px -50px;
+    }
+    
+    .header-nav{
+        display: none;
+    }
+
+    .carrosel{
+        display: none;
+    }
+
+    .main{
+        position: relative;
+    }
+
+    .galery{
+        display: none;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:980px){
+    .header{
+        background-position: 0px -100px;
+    } 
+}
+
+
+
+
+
+
