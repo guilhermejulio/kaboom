@@ -47,6 +47,8 @@ h1,h2,h3,h4,h5{
 
 .main{
     background: white;
+    
+    
 }
 
 .main .card{
@@ -72,24 +74,35 @@ h1,h2,h3,h4,h5{
     margin-bottom: 10px;
 }
 
+.noticia-importante .card{
+    border: 1px solid #FD3A13;
+}
 .carrossel2{
     margin-top: 20px;
 }
 
-
-.mais-lidas{
+.titulo-secao{
     text-align: center;
     color: #FD3A13;
     margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.galery h5{
+    color: black;
+}
+.promoted p{
+    text-align: center;
+}
+
+
+
+.pagination{
+    justify-content: center;
     
 }
-
-.galeria{
-    text-align: center;
-    color: #FD3A13;
-    margin-top: 10px;
-}
-
 
 
 .footer{
@@ -113,6 +126,8 @@ h1,h2,h3,h4,h5{
     
     .carousel-multi-item-2 .card img {
     border-radius: 2px; }
+
+
 
 
 .copy{
@@ -146,16 +161,13 @@ h1,h2,h3,h4,h5{
 }
 
 .rede#facebook{
-    background-color: #2372A3;
+    background-color: white;
 }
 
 .rede#instagram{
     background-color: #3f729b;
 }   
 
-.rede#youtube{
-    background-color: #b00;
-}
 
 .icone{
     margin: 0px auto;
@@ -191,23 +203,41 @@ h1,h2,h3,h4,h5{
         display: none;
     }
 
-    .carrosel{
+    .carrossel{
         display: none;
     }
 
     .main{
         position: relative;
     }
-
     .galery{
         display: none;
     }
+
+
+    .redes-sociais{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width:601px) and (max-width:980px){
     .header{
         background-position: 0px -100px;
-    } 
+    }
+    
+    .galery{
+        display: none;
+    }
+    .carrossel{
+        display: none;
+    }
+
+
+    .promoted{
+        position: relative;
+    }
+
 }
 
 
