@@ -292,6 +292,9 @@ h3 {
         display: none;
     }
 
+    .promoted{
+        display: none;
+    }
 
     .redes-sociais{
         display: none;
@@ -312,9 +315,7 @@ h3 {
     }
 
 
-    .promoted{
-        position: relative;
-    }
+ 
 
 }
 
