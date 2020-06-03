@@ -196,10 +196,15 @@ h3 {
     position: static;
 }
 
-div.row.justify-content-center{
-    margin: 0;
- }
+/* div.row.justify-content-center{
+    margin-right: -15px;
+    margin-left: -15px;
+ } */
 
+ .row{
+    margin-left: 0;
+    margin-right: 0;
+ }
 .video{
     float: right;
 }
