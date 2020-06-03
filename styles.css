@@ -1,20 +1,50 @@
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background:black; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #FD3A13; 
+}
 
 .header{
     background: white;
     margin-bottom: 20px;
     text-align: center;
-}
+} 
+
 
 .header_area{
     padding: 20px;
 }
 
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+section:not(.section-post) {
+    padding: 5px 0;
 }
+body{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden; /*isto esconde tudo o que va para alem do eixo x*/
+    position: relative;
+} 
 
 .logo{
     width: 140px;
@@ -24,12 +54,32 @@ body{
     padding: 20px;
 }
 
-
-
-  
-h1,h2,h3,h4,h5{
-      font-family: 'Montserrat', sans-serif;
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 140%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
 }
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 150%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+  
 
 .titulo{
     color:#FD3A13;
@@ -53,6 +103,7 @@ h1,h2,h3,h4,h5{
 
 .main .card{
     margin-bottom: 15px;
+  
 }
 
 .carrossel-title{
@@ -74,8 +125,12 @@ h1,h2,h3,h4,h5{
     margin-bottom: 10px;
 }
 
+/* .card{
+    
+}  */
 .noticia-importante .card{
-    border: 1px solid #FD3A13;
+    border: ridge;
+    border-color: gray;
 }
 .carrossel2{
     margin-top: 20px;
@@ -135,10 +190,15 @@ h1,h2,h3,h4,h5{
     text-align: center;
 }
 
-.spotify{
-    margin-top: 20px;
+
+.galery{
+    margin-top: 50px;
+    position: static;
 }
 
+.video{
+    float: right;
+}
 .rede-social{
     margin:50px auto;
     width: 1025px;
@@ -207,8 +267,10 @@ h1,h2,h3,h4,h5{
         display: none;
     }
 
+   
     .main{
         position: relative;
+        width: 100%;
     }
     .galery{
         display: none;
