@@ -101,10 +101,10 @@ h3 {
     
 }
 
-.main .card{
+/* .main .card{
     margin-bottom: 15px;
   
-}
+} */
 
 .carrossel-title{
     
@@ -124,6 +124,8 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
 
 /* .card{
     
@@ -145,8 +147,9 @@ h3 {
     font-style: normal;
 }
 
-.galery h5{
+.aside h5{
     color: black;
+    text-align: center;
 }
 .promoted p{
     text-align: center;
@@ -212,6 +215,10 @@ h3 {
     margin:50px auto;
     width: 1025px;
     height: 150px;
+}
+
+#spotify{
+    margin-top: 8px;
 }
 
 .rede{
