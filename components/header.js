@@ -21,9 +21,6 @@ const Header = `
           <li class="nav-item">
             <a class="nav-link" href="#">Log In</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Contact</a>
-          </li>
         </ul>
 
         <section class="row">
