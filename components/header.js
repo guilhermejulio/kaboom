@@ -7,10 +7,10 @@ const Header = `
 
     <section class="row">
 
-      <section class="col-12 col-sm-12 col-md-4 col-lg-2 logo_area">
+      <section class="col-12 col-sm-12 col-md-12 col-lg-2 logo_area">
         <a href="http://kaboomdaily.netlify.app/" title="Home"><img src="imgs/kaboom-logo.png" class="logo"></a>
       </section>
-      <nav class="col-12 col-sm-12 col-md-8 col-lg-10 menu-lateral">
+      <nav class="col-12 col-sm-12 col-md-12 col-lg-10 menu-lateral">
         <ul class="nav justify-content-end">
           <li class="nav-item">
             <a class="nav-link active" href="#">Subscribe</a>
@@ -24,7 +24,7 @@ const Header = `
         </ul>
 
         <section class="row">
-          <section class="col-12 col-sm-12 col-md-4 col-lg-10">
+          <section class="col-sm-12 col-md-12 col-lg-10">
             <h5 class="content justify-content-center titulo-secao">UMA EXPLOSÃO DE NOTICIAS DIARIAS!</h5>
           </section>
         </section>

@@ -273,6 +273,7 @@ h3 {
 @media screen and (max-width:600px){
     .header{
         background-position: 0px -50px;
+        
     }
     
     .header-nav{
