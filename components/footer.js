@@ -3,13 +3,13 @@ const Footer = `
 
 <div class="row infos">
 
-  <div class="col-6 col-sm6 col-md-3">
+  <div class="col-6 col-sm-6 col-md-3">
     <h1>Olá leitor!</h1>
     <p>O Kaboom é um portal de noticias online, que tem como objetivo, disseminar acontecimentos, tecnologias,
       serviços e utilidade publica, conte conosco para se manter informado!</p>
   </div>
 
-  <div class="col-6 col-sm6 col-md-3 quick-links">
+  <div class="col-6 col-sm-6 col-md-3 quick-links">
 
     <h1>Acesso rápido</h1>
     <ul class="nav flex-column">
@@ -38,7 +38,7 @@ const Footer = `
 
   </div>
 
-  <div class="col-6 col-sm6 col-md-3 redes-sociais">
+  <div class="col-6 col-sm-6 col-md-3 redes-sociais">
     <div class="follow-us">
       <h1>mídias digitais:</h1>
 

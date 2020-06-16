@@ -280,7 +280,7 @@ h3 {
         display: none;
     }
 
-    .carrossel{
+    .carrossel-de-noticias{
         display: none;
     }
 
@@ -300,6 +300,9 @@ h3 {
     .redes-sociais{
         display: none;
     }
+    .carrossel-AD{
+        display: none;
+    }
 
 }
 
@@ -311,7 +314,11 @@ h3 {
     .promoted{
         display: none;
     }
-    .carrossel{
+    .carrossel-de-noticias{
+        display: none;
+    }
+
+    .carrossel-AD{
         display: none;
     }
 
